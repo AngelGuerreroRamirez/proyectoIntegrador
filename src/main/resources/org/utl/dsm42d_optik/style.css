@@ -1,0 +1,149 @@
+.primary {
+	-fx-background-color: #7d54c9;
+}
+.primary:hover {
+	-fx-background-color: #895cde;
+	-fx-border-color: #7d54c9;
+	-fx-border-radius: 5px;
+}
+.delete {
+	-fx-background-color: #c650c0;
+}
+.delete:hover {
+	-fx-background-color: #d05cd0;
+	-fx-border-color: #c650c0;
+	-fx-border-radius: 5px;
+}
+.modify {
+	-fx-background-color: #5173CD;
+}
+.modify:hover {
+	-fx-background-color: #5c7fde;
+	-fx-border-color: #5173CD;
+	-fx-border-radius: 5px;
+}
+.degrade-primary {
+	-fx-background-color: linear-gradient(from 0% 0% to 100% 100%, #7d54c9, #c650c0);
+}
+.degrade-secondary {
+	-fx-background-color: linear-gradient(from 0% 0% to 100% 100%, #5173CD, #7d54c9);
+}
+.degrade-delete{
+	-fx-background-color: linear-gradient(from 0% 0% to 100% 100%, #c650c0, #7d54c9);
+}
+.ghost-primary {
+	-fx-background-color: transparent;
+	-fx-border-color: #7d54c9;
+	-fx-text-fill: #7d54c9;
+	-fx-border-radius: 5px;
+	-fx-padding: 5 10 5 10;
+}
+.ghost-primary:hover {
+	-fx-background-color: #7d54c9;
+	-fx-text-fill: white;
+}
+
+.success{
+	-fx-background-color: #17C964;
+}
+.success:hover{
+	-fx-background-color: #14e06c;
+	-fx-border-color: #17C964;
+	-fx-border-radius: 5px;
+}
+.warning{
+	-fx-background-color: #F5A524;
+}
+.warning:hover{
+	-fx-background-color: #f5b24a;
+	-fx-border-color: #F5A524;
+	-fx-border-radius: 5px;
+}
+.tb-background {
+	-fx-background-color: #5b5a5a;
+}
+.background {
+	-fx-background-color: #383838;
+}
+.background-2 {
+	-fx-background-color: #eae9e9;
+}
+.h1 {
+	-fx-font-size: 18;
+	-fx-font-weight: bold;
+}
+.h2 {
+	-fx-font-size: 16;
+	-fx-text-fill: white;
+}
+.h3 {
+	-fx-font-size: 14;
+	-fx-text-fill: white;
+}
+.h4 {
+	-fx-font-size: 12;
+	-fx-text-fill: white;
+}
+.h5 {
+	-fx-font-size: 10;
+	-fx-text-fill: white;
+}
+.h6 {
+	-fx-font-size: 8;
+	-fx-text-fill: white;
+}
+.image{
+	-fx-alignment: center;
+}
+menuBar {
+	-fx-text-fill: white;
+}
+
+.btn{
+	-fx-text-fill: white;
+	-fx-padding: 5 10 5 10;
+	-fx-border-color: transparent;
+}
+
+.bold{
+	-fx-font-weight: bold;
+}
+
+.tab{
+	-fx-background-insets: 0 1 0 1,0,0;
+	-fx-background-color: #383838;
+	-fx-text-fill: white;
+}
+.tab .tab-label {
+	-fx-alignment: CENTER;
+	-fx-text-fill: white;
+	-fx-font-size: 12px;
+	-fx-font-weight: bold;
+}
+.radio-button:selected .radio .dot {
+	-fx-background-color: #383838;
+	-fx-background-insets: 0;
+}
+.radio-button:selected .radio{
+	-fx-background-color: #7d54c9;
+	-fx-background-insets: 0;
+}
+
+
+.radio-button .radio {
+	-fx-background-color: white;
+	-fx-background-insets: 0;
+}
+
+/* cambiar color de fondo de un label */
+.text-field{
+	-fx-background-color: #2a2d2f;
+	-fx-text-fill: white;
+}
+
+.text-degrade{
+	-fx-text-fill: linear-gradient(from 0% 0% to 100% 100%, #7d54c9, #c650c0);
+	-fx-font-size: 40px;
+	-fx-font-weight: bold;
+}
+
