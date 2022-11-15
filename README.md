@@ -20,3 +20,10 @@ contraseña: root
 ```
 
 4.abrir el proyecto en intellij
+
+5.-Esperar a que se descarguen las dependencias
+
+6.-Ejecutar en Task build(azul) y luego en Task run(rojo)
+![task](./md/task.jpg)
+
+7.- si todo sale bien se debe ver la pantalla de login
