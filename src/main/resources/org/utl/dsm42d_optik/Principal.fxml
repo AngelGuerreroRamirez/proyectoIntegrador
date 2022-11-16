@@ -22,7 +22,7 @@
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="900.0" styleClass="fondo" stylesheets="@style.css" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.utl.dsm42d_optik.ControllerPrincipal">
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="900.0" styleClass="primary" stylesheets="@style.css" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.utl.dsm42d_optik.ControllerPrincipal">
    <children>
       <BorderPane layoutX="110.0" layoutY="54.0" prefHeight="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <top>
@@ -58,11 +58,11 @@
             </MenuBar>
          </top>
          <center>
-            <TabPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #393939;" styleClass="background" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
+            <TabPane prefHeight="200.0" prefWidth="200.0" styleClass="primary" stylesheets="@style.css" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
               <tabs>
                 <Tab text="Home">
                   <content>
-                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #383838;">
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #38 #3f8ed0838;">
                            <children>
                               <Label alignment="CENTER" contentDisplay="BOTTOM" layoutX="411.0" layoutY="14.0" prefWidth="200.0" styleClass="text-degrade" text="Welcome" textFill="WHITE" AnchorPane.leftAnchor="200.0" AnchorPane.rightAnchor="200.0" AnchorPane.topAnchor="20.0">
                                  <font>
@@ -74,7 +74,7 @@
                                     <Font name="System Bold" size="18.0" />
                                  </font>
                               </Label>
-                              <AnchorPane layoutX="350.0" layoutY="165.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="60.0" AnchorPane.leftAnchor="60.0" AnchorPane.rightAnchor="60.0" AnchorPane.topAnchor="60.0">
+                              <AnchorPane layoutX="350.0" layoutY="165.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #3f8ed0;" stylesheets="@style.css" AnchorPane.bottomAnchor="60.0" AnchorPane.leftAnchor="60.0" AnchorPane.rightAnchor="60.0" AnchorPane.topAnchor="60.0">
                                  <children>
                                     <ImageView fitHeight="324.0" fitWidth="330.0" layoutX="228.0" layoutY="76.0" pickOnBounds="true" preserveRatio="true" styleClass="image">
                                        <image>
@@ -140,11 +140,11 @@
                               <PasswordField layoutX="615.0" layoutY="178.0" prefHeight="25.0" prefWidth="103.0" />
                               <Label layoutX="748.0" layoutY="161.0" text="Rol" textFill="WHITE" />
                               <ComboBox layoutX="738.0" layoutY="178.0" prefHeight="25.0" prefWidth="77.0" />
-                              <Button layoutX="50.0" layoutY="243.0" mnemonicParsing="false" text="Guardar" />
-                              <Button layoutX="166.0" layoutY="243.0" mnemonicParsing="false" text="Actualizar" />
-                              <Button layoutX="262.0" layoutY="243.0" mnemonicParsing="false" text="Limpiar" />
-                              <Button layoutX="346.0" layoutY="243.0" mnemonicParsing="false" text="Ver empleados" />
-                              <Button layoutX="491.0" layoutY="243.0" mnemonicParsing="false" text="Ver empleados inactivos" />
+                              <Button layoutX="50.0" layoutY="243.0" mnemonicParsing="false" styleClass="success" text="Guardar" />
+                              <Button layoutX="166.0" layoutY="243.0" mnemonicParsing="false" style="-fx-text-fill: white;" styleClass="dark" text="Actualizar" />
+                              <Button layoutX="262.0" layoutY="243.0" mnemonicParsing="false" styleClass="warning" text="Limpiar" />
+                              <Button layoutX="346.0" layoutY="243.0" mnemonicParsing="false" styleClass="link" text="Ver empleados" />
+                              <Button layoutX="491.0" layoutY="243.0" mnemonicParsing="false" styleClass="primary" text="Ver empleados inactivos" />
                               <TableView layoutX="15.0" layoutY="310.0" prefHeight="268.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
                                 <columns>
                                   <TableColumn prefWidth="51.0" text="id" />
@@ -193,11 +193,11 @@
                               <Label layoutX="337.0" layoutY="131.0" text="Precio Venta" textFill="WHITE" />
                               <Label layoutX="498.0" layoutY="131.0" text="Precio Compra" textFill="WHITE" />
                               <Label layoutX="664.0" layoutY="131.0" text="Existencias" textFill="WHITE" />
-                              <Button layoutX="31.0" layoutY="229.0" mnemonicParsing="false" text="Guardar" />
-                              <Button layoutX="173.0" layoutY="229.0" mnemonicParsing="false" text="Actualizar" />
-                              <Button layoutX="309.0" layoutY="229.0" mnemonicParsing="false" text="Limpiar" />
-                              <Button layoutX="450.0" layoutY="229.0" mnemonicParsing="false" text="Ver armazones" />
-                              <Button layoutX="623.0" layoutY="229.0" mnemonicParsing="false" text="Ver armazones inactivos" />
+                              <Button layoutX="31.0" layoutY="229.0" mnemonicParsing="false" styleClass="success" text="Guardar" />
+                              <Button layoutX="173.0" layoutY="229.0" mnemonicParsing="false" style="-fx-text-fill: white;" styleClass="dark" text="Actualizar" />
+                              <Button layoutX="309.0" layoutY="229.0" mnemonicParsing="false" styleClass="warning" text="Limpiar" />
+                              <Button layoutX="450.0" layoutY="229.0" mnemonicParsing="false" styleClass="link" text="Ver armazones" />
+                              <Button layoutX="623.0" layoutY="229.0" mnemonicParsing="false" styleClass="primary" text="Ver armazones inactivos" />
                               <TableView layoutX="14.0" layoutY="327.0" prefHeight="268.0" prefWidth="520.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
                                  <columns>
                                     <TableColumn prefWidth="51.0" text="id" />
