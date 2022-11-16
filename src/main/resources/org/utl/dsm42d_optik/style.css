@@ -1,8 +1,8 @@
 .primary{
-    -fx-background-color: #3f8ed0;
+    -fx-background-color: #4F93CB;
 }
 .success{
-    -fx-background-color: #1bd2a9;
+    -fx-background-color:#48c490;
 }
 .link{
     -fx-background-color: #4b5cc4;
@@ -11,10 +11,17 @@
     -fx-background-color: #f14668;
 }
 .warning{
-    -fx-background-color: #fee08a;
+    -fx-background-color:  #FFF170;
 }
 .white{
-    -fx-background-color: #e4e5df;
+    -fx-background-color: #f1f1f1;
+
+}
+.text-white{
+    -fx-text-fill: #f1f1f1;
+}
+.info{
+    -fx-background-color:  #00d1b2;
 }
 .dark{
     -fx-background-color:#393938;
