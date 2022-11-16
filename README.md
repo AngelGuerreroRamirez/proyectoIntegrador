@@ -27,3 +27,5 @@ contraseña: root
 ![task](./md/task.jpg)
 
 7.- si todo sale bien se debe ver la pantalla de login
+
+~/proyectoIntegrador/proyectoIntegrador
