@@ -10,7 +10,7 @@ import java.util.Objects;
 public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
-        Parent root = FXMLLoader.load(Objects.requireNonNull(Main.class.getResource("Login.fxml")));
+        Parent root = FXMLLoader.load(Objects.requireNonNull(Main.class.getResource("Principal.fxml")));
         Scene scene = new Scene(root);
         primaryStage.setScene(scene);
         primaryStage.show();

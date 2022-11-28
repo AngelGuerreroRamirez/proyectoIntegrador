@@ -125,6 +125,7 @@ public class ControllerPrincipal implements Initializable {
     }
 
     public void mostrar() {
+        /*
         trCliente.setCellValueFactory(new PropertyValueFactory<>("idEmpleado"));
         trNombre.setCellValueFactory(new PropertyValueFactory<>("nombre"));
         trApePaterno.setCellValueFactory(new PropertyValueFactory<>("apellidoPaterno"));
@@ -134,7 +135,7 @@ public class ControllerPrincipal implements Initializable {
         trTelMovil.setCellValueFactory(new PropertyValueFactory<>("telMovil"));
         trCorreo.setCellValueFactory(new PropertyValueFactory<>("correo"));
         trRTC.setCellValueFactory(new PropertyValueFactory<>("rfc"));
-
+        */
 
 
     }
